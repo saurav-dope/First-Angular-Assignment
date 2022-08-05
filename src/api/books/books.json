@@ -1,0 +1,98 @@
+[
+    {
+        "bookId": 1,
+        "bookName": "Mobile Computing",
+        "bookAuthor": "Vinay Kumar Singhal",
+        "bookPrice": 9.5,
+        "bookPublishYear": 2011,
+        "imageUrl": "assets/product_images/MobileComputing.jpg"
+    },
+    {
+        "bookId": 2,
+        "bookName": "Publish News Letter",
+        "bookAuthor": "Amit Garg",
+        "bookPrice": 11.4,
+        "bookPublishYear": 2011,
+        "imageUrl": "assets/product_images/PublishNewsLetter.jpg"
+    },
+    {
+        "bookId": 3,
+        "bookName": "Introduction to Computer",
+        "bookAuthor": "Amit Garg",
+        "bookPrice": 12,
+        "bookPublishYear": 2011,
+        "imageUrl": "assets/product_images/PublishNewsLetter.jpg"
+    },
+    {
+        "bookId": 4,
+        "bookName": "Client Server Computing",
+        "bookAuthor": "Lalit Kumar",
+        "bookPrice": 7.3,
+        "bookPublishYear": 2012 ,
+        "imageUrl": "assets/product_images/PublishNewsLetter.jpg"
+    },
+    {
+        "bookId": 5,
+        "bookName": "Data Structure Using C",
+        "bookAuthor": "Sharad Kumar Verma",
+        "bookPrice": 4.9,
+        "bookPublishYear": 2015,
+        "imageUrl": "assets/product_images/PublishNewsLetter.jpg"
+    },
+    {
+        "bookId": 6,
+        "bookName": "Client Server Computing",
+        "bookAuthor": "Sharad Kumar Verma",
+        "bookPrice": 8.3,
+        "bookPublishYear": 2012,
+        "imageUrl": "assets/product_images/PublishNewsLetter.jpg"
+    },
+    {
+        "bookId": 7,
+        "bookName": "Computer Networks",
+        "bookAuthor": "Sharad Kumar Verma",
+        "bookPrice": 13.1,
+        "bookPublishYear": 2010,
+        "imageUrl": "assets/product_images/PublishNewsLetter.jpg"
+    },
+    {
+        "bookId": 8,
+        "bookName": ".NET Framework & C#",
+        "bookAuthor": "Sharad Kumar Verma",
+        "bookPrice": 14.9,
+        "bookPublishYear": 2009,
+        "imageUrl": "assets/product_images/PublishNewsLetter.jpg"
+    },
+    {
+        "bookId": 9,
+        "bookName": "CBOT",
+        "bookAuthor": "Gunjan Verma",
+        "bookPrice": 17.6,
+        "bookPublishYear": 2014,
+        "imageUrl": "assets/product_images/PublishNewsLetter.jpg"
+    },
+    {
+        "bookId": 10,
+        "bookName": "Computer Networks",
+        "bookAuthor": "Saurabh Singhal",
+        "bookPrice": 7.5,
+        "bookPublishYear": 2016,
+        "imageUrl": "assets/product_images/PublishNewsLetter.jpg"
+    },
+    {
+        "bookId": 11,
+        "bookName": "Computer Graphics",
+        "bookAuthor": "Battacharya, Samit",
+        "bookPrice": 7.2,
+        "bookPublishYear": 2015,
+        "imageUrl": "assets/product_images/PublishNewsLetter.jpg"
+    },
+    {
+        "bookId": 12,
+        "bookName": "Artificial Intelligence",
+        "bookAuthor": "Mishra, RB",
+        "bookPrice": 12.9,
+        "bookPublishYear" : 2011,
+        "imageUrl": "assets/product_images/PublishNewsLetter.jpg"
+    }
+]

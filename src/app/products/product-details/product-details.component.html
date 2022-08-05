@@ -1,0 +1,39 @@
+<mat-dialog-content class="mat-typography">
+  <div class="card">
+    <div class="card-header">
+      <div>{{ pageTitle + ": " + book?.bookName }}</div>
+    </div>
+    <div class="card-body">
+      <div class="row">
+        <div class="col"><b>Name:</b></div>
+        <div class="col">{{ book?.bookName }}</div>
+      </div>
+
+      <div class="row">
+        <div class="col"><b>Author:</b></div>
+        <div class="col">{{ book?.bookAuthor }}</div>
+      </div>
+      <div class="row">
+        <div class="col"><b>Price:</b></div>
+        <div class="col">$ {{ book?.bookPrice }}</div>
+      </div>
+      <div class="row">
+        <div class="col"><b>Year Of Publication:</b></div>
+        <div class="col">{{ book?.bookPublishYear }}</div>
+      </div>
+      <div class="row">
+        <div class="col"><b>Rating:</b></div>
+        <div class="col">{{ book?.rating }}</div>
+      </div>
+      <div class="col-img">
+        <img [src]="book?.imageUrl" [title]="book?.bookName" />
+      </div>
+    </div>
+
+    <div class="card-footer">
+      <button (click)="closeDialog()" class="back-btn">
+        <i class="fa fa-chevron-left"></i> Back
+      </button>
+    </div>
+  </div>
+</mat-dialog-content>

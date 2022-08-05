@@ -1,0 +1,68 @@
+<app-navbar></app-navbar>
+
+<ng-container *ngIf="products.length != 0">
+  <div class="card-table">
+    <div class="cart-product">
+      <table class="table table-responsive">
+        <thead>
+          <tr>
+            <th>Sr. No</th>
+            <th>Book Name</th>
+            <th>Book Image</th>
+            <th>Author</th>
+            <th>Price</th>
+            <th>Quantity</th>
+            <th>Total</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let book of products; let i = index">
+            <td>{{ i + 1 }}</td>
+            <td>{{ book.bookName }}</td>
+            <td><img src="{{ book.imageUrl }}" alt="" /></td>
+            <td>{{ book.bookAuthor }}</td>
+            <td>$ {{ book.bookPrice }}</td>
+            <td>{{ book.quantity }}</td>
+            <td>$ {{ book.total }}</td>
+            <td>
+              <button (click)="removeItem(book)" class="btn-delete">
+                <i class="fa fa-trash" aria-hidden="true"></i>
+              </button>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="4"></td>
+            <td>
+              <button (click)="emptyCart()" class="cart-btn empty-cart">
+                Empty Cart
+              </button>
+            </td>
+            <td>
+              <button routerLink="/products" class="cart-btn shop-more">
+                Shop More
+              </button>
+            </td>
+            <td><button class="cart-btn checkout">Checkout</button></td>
+            <td>Grand Total : $ {{ grandTotal }}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</ng-container>
+
+<ng-container *ngIf="products.length == 0">
+  <div class="container">
+    <div class="card">
+      <h5 class="cart-title">My Cart</h5>
+    </div>
+
+    <div class="center">
+      <img src="../../../assets/cart-empty.png" alt="" />
+      <h4>Your card is empty</h4>
+      <h6>Add item to it now</h6>
+      <button routerLink="/products">Shop Now</button>
+    </div>
+  </div>
+</ng-container>

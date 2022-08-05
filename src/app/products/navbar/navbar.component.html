@@ -1,0 +1,19 @@
+<div class="navbar">
+  <div class="navbar-title">Books</div>
+  <div class="input">
+    <input
+      type="search"
+      name="search-box"
+      id="search-box"
+      placeholder="Search for Books"
+      [(ngModel)]="enteredSearchValue"
+      (input)="onSearchTextChanged()"
+    />
+  </div>
+  <div class="username">
+    {{ username }}
+  </div>
+  <div class="cart">
+    <img (click)="onCartClick()" src="../../../assets/cart-icon.png" alt="" />
+  </div>
+</div>

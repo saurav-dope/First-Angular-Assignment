@@ -1,0 +1,58 @@
+.navbar {
+  height: 45px;
+  background-color: #2874f0;
+  -webkit-box-shadow: 0px -2px 5px 4px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px -2px 5px 4px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px -2px 5px 4px rgba(0, 0, 0, 0.75);
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  width: 100vw;
+  z-index: 2;
+}
+
+.navbar-title {
+  position: absolute;
+  left: 60px;
+  font-size: 1.4rem;
+}
+
+.navbar input {
+  outline: none;
+  height: 25px;
+  width: 380px;
+  padding-left: 10px;
+  background-image: url("../../../assets/search-icon.png");
+  background-repeat: no-repeat;
+  background-size: 20px;
+  background-position-x: right;
+  background-position-y: center;
+  border: none;
+  border-radius: 2px;
+}
+
+.navbar input:focus {
+  background-image: none;
+}
+
+.username {
+  font-size: 1.8rem;
+  text-transform: uppercase;
+}
+
+.cart {
+  position: absolute;
+  right: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: cursive;
+  cursor: pointer;
+}
+
+.cart img {
+  height: 70px;
+  width: 70px;
+}

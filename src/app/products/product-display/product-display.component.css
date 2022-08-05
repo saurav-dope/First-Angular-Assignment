@@ -1,0 +1,46 @@
+.display-container {
+  position: absolute;
+  display: inline-block;
+  right: 0;
+  width: calc(100% - 250px);
+}
+
+.display-container > .display-heading {
+  margin-top: 60px;
+}
+
+.display-container > .display-heading > h3 {
+  font-size: larger;
+  font-family: cursive;
+  margin-left: 60px;
+}
+
+.display-container > .row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-left: 35px;
+}
+
+.display-container .card {
+  margin: 25px;
+}
+
+.display-container img {
+  height: 180px;
+  width: 140px;
+  cursor: pointer;
+}
+
+.card p {
+  margin: 10px 0;
+}
+
+.card button {
+  width: 100px;
+  height: 30px;
+  background: #2874f0;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}

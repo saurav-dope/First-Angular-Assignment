@@ -1,0 +1,13 @@
+<app-navbar (searchTextChanged)="onSearchTextEntered($event)"></app-navbar>
+<app-filters
+  (getMinValue)="getMinValue($event)"
+  (getMaxValue)="getMaxValue($event)"
+  (getRatingValue)="getRatingValue($event)"
+></app-filters>
+<app-product-display
+  [searchTextInput]="searchText"
+  [maxValue]="maxValue"
+  [minValue]="minValue"
+  [minmRating]="minmRating"
+>
+</app-product-display>

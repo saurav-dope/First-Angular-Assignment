@@ -1,0 +1,38 @@
+.container{
+    height: 100vh;
+    overflow: hidden;
+    font-family: cursive;
+}
+
+.error-content{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    margin-top: 5%;
+    margin-left: 25%;
+}
+
+.error-image > img{
+    height: 250px;
+    width: 200px;
+}
+
+.error-code{
+    display: flex;
+    flex-direction: column;
+}
+
+.error-code > h2{
+    font-size: 4rem;
+    margin-top: -5px;
+}
+
+.error-message{
+    margin: 30px;
+    font-size: 1.7rem;
+}
+
+.nav-link{
+    color: red;
+    text-decoration: none;
+}

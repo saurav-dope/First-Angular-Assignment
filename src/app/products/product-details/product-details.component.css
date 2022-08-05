@@ -1,0 +1,73 @@
+.card {
+  position: absolute;
+  top: 45px;
+  height: 100%;
+  width: 60vw;
+  margin: 100px 250px;
+  position: fixed;
+}
+
+.card-header {
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  background-color: red;
+}
+
+.card-header > div {
+  margin-left: 1rem;
+  font-size: 1.5rem;
+}
+
+.card-body {
+  position: relative;
+  background-color: #d3d3d3;
+}
+
+.row {
+  height: 2.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.col {
+  margin-left: 20px;
+  font-size: 1.2rem;
+}
+
+.col-img {
+  position: absolute;
+  bottom: 0;
+  right: 150px;
+}
+
+.col-img > img {
+  width: 150px;
+  height: 192px;
+}
+
+.card-footer {
+  height: 3rem;
+  background-color: red;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.card-footer > button {
+  height: 30px;
+  width: 100px;
+  margin-left: 1rem;
+  cursor: pointer;
+  background-color: #d3d3d3;
+  border: none;
+  color: #000;
+  font-size: 1.2rem;
+  outline: none;
+}
+
+.card-footer .add-to-cart-btn {
+  position: absolute;
+  right: 150px;
+  width: 150px;
+}

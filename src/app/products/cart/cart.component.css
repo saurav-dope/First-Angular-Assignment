@@ -1,0 +1,119 @@
+.container {
+  position: absolute;
+  top: 45px;
+  height: 100vh - 45px;
+  width: 92vw;
+  border: 1px solid #d3d3d3;
+  margin: 50px;
+}
+
+.card {
+  height: 60vh;
+  margin: 25px;
+  padding: 25px;
+  font-size: 2rem;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.center img {
+  text-decoration: none;
+  color: inherit;
+  border: none;
+  outline: none;
+  height: 162px;
+  width: 250px;
+  margin: 20px 0;
+}
+
+.center h4 {
+  font-size: 1.8rem;
+}
+
+.center h6 {
+  font-size: 1.2rem;
+}
+
+.center h4,
+h6 {
+  font-weight: 400;
+  margin: 10px 0;
+}
+
+.center button {
+  height: 40px;
+  width: 100px;
+  color: #fff;
+  background: #2874f0;
+  border: none;
+  border-radius: 3px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.card-table {
+  position: absolute;
+  top: 45px;
+  height: 100vh - 45px;
+  width: 92vw;
+  border: 1px solid #d3d3d3;
+  margin: 50px;
+}
+
+.card-table table {
+  width: 100%;
+}
+
+.card-table tr {
+  height: 40px;
+}
+
+.card-table td {
+  text-align: center;
+}
+
+.btn-delete i {
+  font-size: 1.5rem;
+  color: red;
+  width: 25px;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+.btn-delete i:hover {
+  color: #fff;
+  background: red;
+}
+
+.table tbody img {
+  width: 100px;
+  height: 130px;
+}
+
+.cart-btn {
+  height: 35px;
+  width: 100px;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  color: #fff;
+}
+
+.empty-cart {
+  background-color: red;
+}
+
+.shop-more {
+  background-color: #2874f0;
+}
+
+.checkout {
+  background-color: green;
+}

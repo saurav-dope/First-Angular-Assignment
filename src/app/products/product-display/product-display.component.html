@@ -1,0 +1,39 @@
+<div class="display-container">
+  <div class="display-heading">
+    <h3>Latest Books Available</h3>
+  </div>
+  <div class="row">
+    <ng-container *ngFor="let book of products; let i = index">
+      <div
+        class="card"
+        *ngIf="
+          book.bookPrice >= minValue &&
+          book.bookPrice <= maxValue - 1 &&
+          book.rating >= minmRating &&
+          (searchTextInput === '' ||
+            book.bookName.toLowerCase().includes(searchTextInput))
+        "
+      >
+        <img
+          (click)="setProductId(book)"
+          (click)="openDialog()"
+          src="{{ book.imageUrl }}"
+          alt=""
+        />
+        <h4>{{ book.bookName }}</h4>
+        <p>
+          AUTHOR: <b>{{ book.bookAuthor }}</b>
+        </p>
+        <p>$ {{ book.bookPrice }}</p>
+        <button
+          [id]="i"
+          routerLink="/cart"
+          class="add-to-cart"
+          (click)="addToCart(book)"
+        >
+          Add To Cart
+        </button>
+      </div>
+    </ng-container>
+  </div>
+</div>
